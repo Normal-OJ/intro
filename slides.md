@@ -22,6 +22,7 @@ fonts:
   <button class="mt-10 py-2 px-4 rounded text-white bg-primary hover:bg-[#305884] cursor-pointer" @click="$slidev.nav.nextSlide">
     Get Started
   </button>
+  <p class="mt-10 text-xs text-gray-400">按方向鍵「下」或「右」可以翻頁</p>
 </div>
 
 ---
@@ -31,13 +32,19 @@ layout: noj
 <Title>介紹</Title>
 
 <ul class="list-inside list-disc">
-  <li class="my-3" v-click>源自於 108-1 軟體工程的期末專案：Normal Online Judge (NOJ)</li>
-  <li class="my-3" v-click>開發軟體（網頁服務）、維護現有系統，並實際上線供系上甚至校內外人士使用</li>
-  <li class="my-3" v-click>是一堂初階服務學習課程</li>
-  <li class="my-3" v-click>不只是一堂課，是系上喜歡開發的學生們組成的社群</li>
+  <li class="my-3">源自於 108-1 軟體工程的期末專案：Normal Online Judge (NOJ)</li>
+  <li class="my-3">開發軟體（網頁服務）、維護現有系統，並實際上線供系上甚至校內外人士使用</li>
+  <li class="my-3">是一堂初階服務學習課程，每學年下學期開課，但在上學期即開始招募修課學生</li>
+  <li class="my-3">不只是一堂課程：組成學生社群</li>
 </ul>
 
-<div class="mt-24 flex justify-around items-center">
+---
+layout: noj
+---
+
+<Title>介紹</Title>
+
+<div class="mt-12 grid grid-cols-2 gap-y-16">
   <div
     v-for="[img, name] in [['NOJ.png', 'Normal Online Judge'], ['pyShare.png', 'Python 創作分享平台'], ['Examhub.png', '師大資工考古題系統'], ['NTR.jpg', '師大資工 Telegram Bot']]"
     :key="img"
@@ -55,36 +62,54 @@ layout: noj
 <Title>介紹</Title>
 
 <div class="flex">
-  <img class="w-344px h-385px" :src="`./../images/contributors.png`">
+  <img class="h-385px w-344px mr-6 border" :src="`./../images/contributors.png`">
+  <img class="w-400px h-266px border" :src="`./../images/nojHW.png`">
 </div>
 
 ---
 layout: noj
 ---
 
-<div class="text-2xl">原始碼維護會怎麼招人的啦</div>
+<Title>招募——修課門檻</Title>
 
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
-todo todo todo todo<br>
+<ul class="list-inside list-disc">
+  <li class="my-3">需有開發經驗（例如網頁開發、系統程式、逆向工程、DevOps、UI/UX 等皆可）</li>
+  <li class="my-3">不必是大神，但至少有做過任何專案或作品</li>
+  <li class="my-3">或曾於開放原始碼社群或專案進行貢獻</li>
+  <li class="my-3">具體說明於學期中公告</li>
+</ul>
 
 ---
 layout: noj
 ---
 
-ggg
+<Title>招募——我沒有開發經驗的話怎麼辦？</Title>
+
+<ul class="list-inside list-disc">
+  <li class="my-3"><del>明年再來</del></li>
+  <li class="my-3">學期中在公告資訊時會附帶一個要求的作品，在學期末前完成</li>
+  <li class="my-3">社群會協助你在做作品時遇到的困難</li>
+  <li class="my-3">社群平時會舉辦讀書會，其中有些會分享如何入門專案開發，歡迎來聽</li>
+</ul>
 
 ---
-layout: 'default'
+layout: noj
 ---
 
-# Hi
+<Title>連結</Title>
 
-- A
-- B
-- C
+<div>重要重要，前面沒在聽都沒關係</div>
+
+<div class="mt-9 mb-1 flex items-center">
+  <svg class="h-6 w-6 text-black mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+  <span class="mr-2">Normal Online Judge</span>
+  (<a href="https://www.facebook.com/noj.tw">https://www.facebook.com/noj.tw</a>)
+</div>
+<div class="my-3 flex items-center">
+  <svg class="h-6 w-6 text-black mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
+  <span class="mr-2">Normal-OJ</span>
+  (<a href="https://github.com/Normal-OJ">https://github.com/Normal-OJ</a>)
+</div>
+
+<img class="mt-6 mr-6 border" :src="`./../images/nojPage.png`">
+
