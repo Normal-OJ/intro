@@ -11,7 +11,7 @@ fonts:
 ---
 
 <div class="text-center pt-24">
-  <img class="w-20 mx-auto" :src="`./../images/NOJ.png`">
+  <img class="w-20 mx-auto" :src="`/NOJ.png`">
   <h1 class="mt-4 text-2xl font-bold">初階服務學習課程 - 原始碼維護</h1>
   <h2 class="mt-4">開發與維護正在實際運行的開源服務</h2>
   <div class="mt-3 flex space-x-5 justify-center items-align">
@@ -50,7 +50,7 @@ layout: noj
     :key="img"
     class="flex flex-col items-center"
   >
-    <img :src="`./../images/${img}`" class="h-16">
+    <img :src="`/${img}`" class="h-16">
     <span class="text-sm mt-2">{{ name }}</span>
   </div>
 </div>
@@ -62,8 +62,8 @@ layout: noj
 <Title>介紹</Title>
 
 <div class="flex">
-  <img class="h-385px w-344px mr-6 border" :src="`./../images/contributors.png`">
-  <img class="w-400px h-266px border" :src="`./../images/nojHW.png`">
+  <img class="h-385px w-344px mr-6 border" :src="`/contributors.png`">
+  <img class="w-400px h-266px border" :src="`/nojHW.png`">
 </div>
 
 ---
@@ -111,5 +111,5 @@ layout: noj
   (<a href="https://github.com/Normal-OJ">https://github.com/Normal-OJ</a>)
 </div>
 
-<img class="mt-6 mr-6 border" :src="`./../images/nojPage.png`">
+<img class="mt-6 mr-6 border" :src="`/nojPage.png`">
 
