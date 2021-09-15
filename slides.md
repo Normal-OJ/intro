@@ -58,7 +58,7 @@ layout: noj
     <span class="text-sm mt-2">師大資工考古題系統</span>
   </div>
   <div class="flex flex-col items-center">
-    <img src="/NTR.png" class="h-16">
+    <img src="/NTR.jpg" class="h-16">
     <span class="text-sm mt-2">師大資工 Telegram Bot</span>
   </div>
 </div>
