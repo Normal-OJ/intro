@@ -38,6 +38,22 @@ layout: noj
   <li class="my-3">不只是一堂課程：組成學生社群</li>
 </ul>
 
+<img src="/meetup.jpeg" class="mt-5 w-2/3">
+
+---
+layout: noj
+---
+
+<Title>介紹</Title>
+
+<a href="https://noj.tw" target="_blank" rel="noreferrer noopener">https://noj.tw</a>
+
+<div class="mt-3 flex">
+  <img class="h-385px w-344px mr-3 border" src="/contributors.png">
+  <img class="w-400px h-266px border" src="/nojHW.png">
+</div>
+
+
 ---
 layout: noj
 ---
@@ -67,25 +83,16 @@ layout: noj
 layout: noj
 ---
 
-<Title>介紹</Title>
-
-<div class="flex">
-  <img class="h-385px w-344px mr-6 border" src="/contributors.png">
-  <img class="w-400px h-266px border" src="/nojHW.png">
-</div>
-
----
-layout: noj
----
-
 <Title>招募——修課門檻</Title>
 
 <ul class="list-inside list-disc">
   <li class="my-3">需有開發經驗（例如網頁開發、系統程式、逆向工程、DevOps、UI/UX 等皆可）</li>
   <li class="my-3">不必是大神，但至少有做過任何專案或作品</li>
   <li class="my-3">或曾於開放原始碼社群或專案進行貢獻</li>
-  <li class="my-3">具體說明於學期中公告</li>
+  <li class="my-3">具體說明於學期中公告在 FB 專頁</li>
 </ul>
+
+<img src="/contribution.png" class="mt-5 w-1/2">
 
 ---
 layout: noj
@@ -95,10 +102,15 @@ layout: noj
 
 <ul class="list-inside list-disc">
   <li class="my-3"><del>明年再來</del></li>
-  <li class="my-3">學期中在公告資訊時會附帶一個要求的作品，在學期末前完成</li>
-  <li class="my-3">社群會協助你在做作品時遇到的困難</li>
-  <li class="my-3">社群平時會舉辦讀書會，其中有些會分享如何入門專案開發，歡迎來聽</li>
+  <li class="my-3">學期中在公告資訊時會附帶一個要求的作品，在學期末前完成（自己有作品當然就免了）</li>
+  <li class="my-3">做作品時遇到問題可以來社群詢問，大家會盡所能協助你</li>
+  <li class="my-3">社群平時會舉辦 meetup，其中有些會分享如何入門專案開發，歡迎來聽</li>
 </ul>
+
+<div class="flex justify-end items-end">
+<img src="/schedule.png" class="w-200px">
+（這是去年的）
+</div>
 
 ---
 layout: noj
@@ -106,17 +118,17 @@ layout: noj
 
 <Title>連結</Title>
 
-<div>重要重要，前面沒在聽都沒關係</div>
+<div>重要重要</div>
 
 <div class="mt-9 mb-1 flex items-center">
   <svg class="h-6 w-6 text-black mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
   <span class="mr-2">Normal Online Judge</span>
-  (<a href="https://www.facebook.com/noj.tw">https://www.facebook.com/noj.tw</a>)
+  (<a href="https://www.facebook.com/noj.tw" target="_blank" rel="noreferrer noopener">https://www.facebook.com/noj.tw</a>)
 </div>
 <div class="my-3 flex items-center">
   <svg class="h-6 w-6 text-black mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
   <span class="mr-2">Normal-OJ</span>
-  (<a href="https://github.com/Normal-OJ">https://github.com/Normal-OJ</a>)
+  (<a href="https://github.com/Normal-OJ" target="_blank" rel="noreferrer noopener">https://github.com/Normal-OJ</a>)
 </div>
 
 <img class="mt-6 mr-6 border" src="/nojPage.png">
